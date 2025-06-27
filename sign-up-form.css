@@ -12,25 +12,25 @@ body {
 .left-container {
     height: 100vh;
     background-image: url(tony-litvyak-6AK7fLBumYA-unsplash.jpg);
-    background-size: max(100vh, 150%);
+    background-size: max(150vh, 150%);
     background-repeat: no-repeat;
     background-position: center center;
 }
 
 .left-container, .right-container {
-    width: 50%
+    width: 40%
 }
 
 .right-container {
-    width: max(400px, 50vw);
+    width: max(400px, 60vw);
 }
 
 form {
 }
 
 .header, .footer {
-    height: calc(50px + 10vh);
-    width: max(400px, 50vw); 
+    height: calc(90px + 10vh);
+    width: max(400px, 60vw); 
     position: fixed;
 }
 .header {
