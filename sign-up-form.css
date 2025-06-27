@@ -5,6 +5,16 @@ body {
     display: flex;
     height: 100vh;
     margin: 0;
+    padding: 0;
+}
+
+
+.left-container {
+    height: 100vh;
+    background-image: url(tony-litvyak-6AK7fLBumYA-unsplash.jpg);
+    background-size: max(100vh, 150%);
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .left-container, .right-container {
