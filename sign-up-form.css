@@ -1,5 +1,9 @@
 * {
-    
+    border: solid;
+}
+
+html, body {
+    height: 100vh
 }
 body {
     display: flex;
@@ -7,7 +11,6 @@ body {
     margin: 0;
     padding: 0;
 }
-
 
 .opacity-background {
     background-color: black;
@@ -47,19 +50,24 @@ body {
 
 .right-container {
     width: max(400px, 60vw);
+    display: flex;
+    flex-direction: column;
 }
 
 form {
+    background-color: blue;
+    flex: 1 1 150px;
+    width: 100%; 
 }
 
 .header, .footer {
-    height: calc(90px + 10vh);
-    width: max(400px, 60vw); 
-    position: fixed;
+    height: calc(35vh);
+    width: 100%;
+    
 }
 .header {
-    top: 0;
+
 }
 .footer {
-    bottom: 0;
+    
 }
