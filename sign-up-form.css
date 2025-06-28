@@ -1,5 +1,5 @@
 * {
-    border: solid;
+    
 }
 body {
     display: flex;
@@ -9,16 +9,40 @@ body {
 }
 
 
+.opacity-background {
+    background-color: black;
+    opacity: 50%;
+}
+
+.logo-container, .opacity-background {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 50%;
+    height: 100px;
+    transform: translateY(-50%);
+
+}
+.logo-container {
+    background-image: url(the-odin-project-logo-skill-finder-partners-page.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    z-index: 9999;
+}
+
 .left-container {
     height: 100vh;
+    position: relative;
     background-image: url(tony-litvyak-6AK7fLBumYA-unsplash.jpg);
     background-size: max(150vh, 150%);
     background-repeat: no-repeat;
     background-position: center center;
-}
-
-.left-container, .right-container {
-    width: 40%
+    width: 40%;
+    overflow: visible;
 }
 
 .right-container {
