@@ -119,5 +119,13 @@ footer button {
 
 input {
     border-radius: 2px;
-    box-shadow: 2px 2px 5px 0px green;
+}
+
+
+input:valid:not(:placeholder-shown) {
+    box-shadow: 1px 1px 3px 0px green;
+}
+
+input:invalid:not(:placeholder-shown) {
+box-shadow: 1px 1px 3px 0px red;
 }
