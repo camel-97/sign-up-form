@@ -103,7 +103,16 @@ legend {
     position: relative;
 }
 
+ footer div{
+    margin: 10px;
+    margin-left: calc(10px + 2vw);
+}
 
-.footer {
-    
+.button-container {
+    margin-top: 20px
+}
+
+footer button {
+    padding: 5px;
+    margin-right: 10px
 }
