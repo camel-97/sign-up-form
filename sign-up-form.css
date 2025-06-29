@@ -61,6 +61,7 @@ form {
     padding-left: 2vw;
     background-color: white;
     box-shadow: 0px 1px 10px rgba(0, 0, 1, 0.2);
+    z-index: 999;
 }
 
 .grid-container {
